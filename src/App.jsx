@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import ApplicationForm from "./Pages/ApplicationForm/ApplicationForm";
 
 function App() {
   return (
     <>
-      <h1>This is innkeeper final project</h1>
+      <ApplicationForm />
     </>
   );
 }
