@@ -14,13 +14,13 @@ export default function ApplicationForm() {
           <img src={image1} className={style.img} alt='' />
           <p>Adesola Sanni</p>
         </div>
-        <div>
-          <h4>Hear what our interns are saying</h4>
-          <h6>
+        <div className={style.textDiv}>
+          <h4 className={style.headerH4}>Hear what our interns are saying</h4>
+          <h6 className={style.headerH6}>
           “ I started my Journey with innkeeper 6 months ago and all of my expectations towards the product design course i took has been met even more. Now i’m building my portfolio as i work with Innkeeper on different projects.”
           </h6>
         </div>
-        <div>
+        <div className={style.seeDiv}>
           see more
         </div>
         </div>
