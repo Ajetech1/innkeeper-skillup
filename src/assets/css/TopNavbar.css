@@ -1,3 +1,7 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .search-form {
   position: relative;
   width: 100%;
@@ -7,7 +11,7 @@
 .search-icon {
   position: relative;
   top: 20px;
-  left: 50%;
+  left: 40%;
   transform: translateY(-50%);
   color: black;
   cursor: pointer;
@@ -17,6 +21,6 @@
 .form-control {
   padding-right: 70px;
   position: relative;
-  left: 65%;
+  left: 50%;
   background-color: #f4f7fa;
 }

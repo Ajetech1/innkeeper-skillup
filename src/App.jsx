@@ -10,7 +10,6 @@ import LandingPage from "./Pages/LandingPage/LandingPage";
 function App() {
   return (
     <Router>
-      <h1>you are mine</h1>
       <TopNavbar />
       <div className="main-content">
         <Routes>
