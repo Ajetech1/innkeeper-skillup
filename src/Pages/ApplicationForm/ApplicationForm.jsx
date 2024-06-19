@@ -1,11 +1,32 @@
 import style from './ApplicationForm.module.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import image1 from '../../assets/applicationImage.png'
 
 
 export default function ApplicationForm() {
   return (
-    <div className={style.container}>
+
+    <div>
+      <div className={style.containerHeader}>
+        <div className={style.header}>
+        <div className={style.ImageDiv}>
+          <img src={image1} className={style.img} alt='' />
+          <p>Adesola Sanni</p>
+        </div>
+        <div>
+          <h4>Hear what our interns are saying</h4>
+          <h6>
+          “ I started my Journey with innkeeper 6 months ago and all of my expectations towards the product design course i took has been met even more. Now i’m building my portfolio as i work with Innkeeper on different projects.”
+          </h6>
+        </div>
+        <div>
+          see more
+        </div>
+        </div>
+        
+      </div>
+      <div className={style.container}>
       <h1>ApplicationForm</h1>
       <h4 className={style.h4}>Fill in the correct information in the appropriate places below. </h4>
       <form>
@@ -87,6 +108,8 @@ export default function ApplicationForm() {
         
       </form>
     </div>
+    </div>
+    
 
   )
 }
