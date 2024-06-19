@@ -1,4 +1,6 @@
 import React from "react";
+import "./App.css";
+import LandingPage from "./Pages/LandingPage/LandingPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import TopNavbar from "./Components/TopNavbar";
 import LandingPage from "./Pages/LandingPage/LandingPage";
@@ -9,6 +11,9 @@ import LandingPage from "./Pages/LandingPage/LandingPage";
 
 function App() {
   return (
+    <>
+      <LandingPage />
+    </>
     <Router>
       <TopNavbar />
       <div className="main-content">
