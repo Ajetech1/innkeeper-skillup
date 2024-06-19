@@ -1,0 +1,22 @@
+.search-form {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.search-icon {
+  position: relative;
+  top: 20px;
+  left: 50%;
+  transform: translateY(-50%);
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.form-control {
+  padding-right: 70px;
+  position: relative;
+  left: 65%;
+  background-color: #f4f7fa;
+}
