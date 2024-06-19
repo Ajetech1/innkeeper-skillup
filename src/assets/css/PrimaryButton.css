@@ -1,0 +1,21 @@
+.primary-button {
+  background-color: #155571;
+  border-color: #155571;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: #d4eef9;
+  border-color: #d4eef9;
+  color: #155571; /* Ensure text color changes on hover */
+}
+
+@media (max-width: 768px) {
+  .primary-button {
+    background-color: white; /* Change background color to white on mobile */
+    color: #155571; /* Text color to the primary color */
+  }
+}

@@ -33,8 +33,8 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    background-color: #141313bf;
-    padding: 45px;
+    /* background-color: #141313bf; */
+    padding: 10px;
     width: 100%;
   }
 

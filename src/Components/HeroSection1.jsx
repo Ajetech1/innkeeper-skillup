@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Heroimage from "../assets/images/landingpage-hero.png";
 import "../assets/css/HeroSection.css";
+import PrimaryButton from "./PrimaryButton";
 
 const HeroSection = () => {
   return (
@@ -16,6 +17,9 @@ const HeroSection = () => {
             We are a digital Inn that makes tech career transitioning easy
             through mentored training and career portfolio building.
           </p>
+          <PrimaryButton onClick={() => alert("Button clicked!")}>
+            Apply
+          </PrimaryButton>
         </Col>
       </Row>
     </Container>
