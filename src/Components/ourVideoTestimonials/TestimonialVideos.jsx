@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TestimonialVideo from "./TestimonialVideo";
-import { MdKeyboardArrowRight } from "react-icons/md";
+import { MdArrowForwardIos } from "react-icons/md";
 
 const TestimonialVideos = () => {
   const [currentVideo, setCurrentVideo] = useState(0);
@@ -37,7 +37,7 @@ const TestimonialVideos = () => {
       {testimonials
         .slice(currentVideo, currentVideo + 2)
         .map((testimony, index) => (
-          <div key={index + currentVideo} className="col-6">
+          <div key={index + currentVideo} className="col-md-6 col-12">
             <TestimonialVideo
               source={testimony.source}
               witness={testimony.witness}
@@ -45,7 +45,7 @@ const TestimonialVideos = () => {
           </div>
         ))}
 
-      <MdKeyboardArrowRight
+      <MdArrowForwardIos
         onClick={crntID}
         className="bg-light position-absolute end-0 top-50 rounded-circle"
         style={{ height: "40px", width: "40px" }}
