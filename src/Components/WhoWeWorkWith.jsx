@@ -10,20 +10,20 @@ import lagos from '../assets/images/lagos.jpg';
 function WhoWeWorkWith() {
   return (
     
-    <div className="card-group container  mb-5">
+    <div className="card-group container border-0 mt-5 mb-5 mx-auto">
 
-    <div className="card">
+    <div className="card border-0">
       <img src={gear} className="card-img-top w-30" alt="..." />
     </div>
-    <div className="card">
+    <div className="card border-0">
       <img src={logo} className="card-img-top w-30" alt="..." />
     </div>
     
-    <div className="card">
+    <div className="card border-0">
       <img src={federal} className="card-img-top w-30" alt="..." />
       </div>
 
-      <div className="card">
+      <div className="card border-0 mb-5">
       <img src={lagos} className="card-img-top w-30" alt="..." />
       </div>
   </div>
