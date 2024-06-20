@@ -1,3 +1,10 @@
 .faqSection{
 	background: #FEF8EE;
+	padding-bottom: 60px;
+}
+.question{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
