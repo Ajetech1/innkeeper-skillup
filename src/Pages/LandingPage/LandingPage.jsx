@@ -4,12 +4,14 @@ import OurReviews from "../../Components/ourReviews/OurReviews";
 import Faqs from "../../Components/faqs/Faqs"
 import TopNavbar from "../../Components/TopNavbar";
 import HeroSection from "../../Components/HeroSection1";
+import AboutUs from "../../Components/AboutUs";
 
 function LandingPage() {
   return (
     <div>
       <TopNavbar />
       <HeroSection />
+      <AboutUs />
       <OurVideoTestimonials />
       <OurReviews />
       <Faqs />
