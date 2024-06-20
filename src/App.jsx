@@ -1,11 +1,14 @@
 import React from "react";
 import "./App.css";
-import ApplicationForm from "./Pages/ApplicationForm/ApplicationForm";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
   return (
     <>
-      <ApplicationForm />
+    <ToastContainer />
+      
     </>
   );
 }

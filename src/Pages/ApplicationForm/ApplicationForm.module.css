@@ -1,10 +1,11 @@
-.containerHeader{
+/* Styles for large screens (default) */
+.containerHeader {
     background-color: #f4f4f4;
     box-shadow: 2px 2px 2px 2px rgb(235, 230, 230);
     border-radius: 10px;
     padding: 20px 10px;
     max-width: 100%;
-    width:50%;
+    width: 50%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -14,46 +15,50 @@
     margin-bottom: 20px;
 }
 
-.header{
+.header {
     display: flex;
+    align-content: center;
 }
-.img{
+
+.img {
     width: 100px;
     border-radius: 50%;
     height: 100px;
 }
 
-.headerH4{
+.headerH4 {
     font-size: 18px;
     font-weight: 600;
 }
-.headerH6{
+
+.headerH6 {
     font-size: 13px;
     font-weight: 300;
 }
 
-.ImageDiv{
-width: 40%;
-display: flex;
-flex-direction: column;
-justify-content: end;
-align-items: center;
+.ImageDiv {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
-.textDiv{
+
+.textDiv {
     width: 50%;
-
-}
-.seeDiv{
-    width: 10%;
 }
 
-.container{
+.seeDiv {
+    width: 20%;
+}
+
+.container {
     background-color: #f4f4f4;
     box-shadow: 2px 2px 2px 2px rgb(235, 230, 230);
     border-radius: 10px;
     padding: 20px 10px;
     max-width: 100%;
-    width:50%;
+    width: 50%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -63,26 +68,89 @@ align-items: center;
     margin-bottom: 20px;
 }
 
-.h4{
+.h4 {
     font-size: 15px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
-.formName{
+.formName {
     display: flex;
     gap: 10px;
 }
 
-.selectAge{
+.selectAge {
     width: 50%;
 }
 
-.button{
+.button {
     width: 100%;
     background-color: black;
     border-color: black;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+}
+
+/* Media Queries for iPad Screens */
+@media (max-width: 768px) {
+    .containerHeader,
+    .container {
+        width: 70%;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ImageDiv,
+    .textDiv,
+    .seeDiv {
+        width: 100%;
+        text-align: center;
+    }
+
+    .formName {
+        flex-direction: column;
+    }
+}
+
+/* Media Queries for Small Screens */
+@media (max-width: 480px) {
+    .containerHeader,
+    .container {
+        width: 90%;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ImageDiv,
+    .textDiv,
+    .seeDiv {
+        width: 100%;
+        text-align: center;
+    }
+
+    .headerH4 {
+        font-size: 16px;
+       
+    }
+    .h4 {
+        text-align: center;
+    }
+
+    .headerH6 {
+        font-size: 12px;
+    }
+
+    .formName {
+        flex-direction: column;
+    }
+
+    .selectAge {
+        width: 100%;
+    }
 }
