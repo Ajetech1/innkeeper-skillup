@@ -41,7 +41,7 @@ npm run build
 This will create a production-ready build in the build directory.
 
 Project Structure
-ict-training-website/
+innkeeper-skillUp/
 ├── public/
 │ ├── index.html
 │ └── ...
