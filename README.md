@@ -83,6 +83,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Contact
 If you have any questions, feel free to reach out:
 
-Email: your.email@example.com
+Email: jeleelajetunmobi@gmail.com
 LinkedIn: Your LinkedIn Profile
 GitHub: (https://github.com/Ajetech1)
