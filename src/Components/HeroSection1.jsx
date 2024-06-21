@@ -49,7 +49,7 @@ const HeroSection = () => {
             We are a digital Inn that makes tech career transitioning easy
             through mentored training and career portfolio building.
           </p>
-          <PrimaryButton onClick={() => alert("Button clicked!")}>
+          <PrimaryButton onClick={() => (window.location.href = "/account")}>
             Apply
           </PrimaryButton>
         </Col>
