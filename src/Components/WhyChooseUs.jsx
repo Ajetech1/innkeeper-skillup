@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import image2 from '../assets/images/image2.jpg';
-import image1 from '../assets/images/image1.jpg';
+import beauty from '../assets/images/beauty.jpg';
 import image3 from '../assets/images/image3.jpg';
 
 function WhyChooseUs() {
@@ -34,7 +34,7 @@ function WhyChooseUs() {
       </div>
     </div>
     <div className="col-md-4">
-      <img src={image1} className="img-fluid rounded-start" alt="..."  />
+      <img src={beauty} className="img-fluid rounded-start" alt="..."  />
     </div>
   </div>
 </div>
