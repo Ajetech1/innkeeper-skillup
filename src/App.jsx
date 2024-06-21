@@ -1,12 +1,9 @@
 import React from "react";
 import "./App.css";
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import TopNavbar from "./Components/TopNavbar";
 import LandingPage from "./Pages/LandingPage/LandingPage";
-import Footer from "./Components/footer/Footer"
+import Footer from "./Components/footer/Footer";
 // import CoursesPage from "./Pages/LandingPage/CoursesPage";
 // import AboutPage from "./Pages/AboutPage/AboutPage";
 // import ContactPage from "./Pages/ContactPage/ContactPage";
@@ -27,10 +24,6 @@ function App() {
       </div>
       <Footer />
     </Router>
-    <>
-    <ToastContainer />
-      
-    </>
   );
 }
 
