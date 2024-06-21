@@ -1,5 +1,8 @@
 import React from "react";
 import "./App.css";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import TopNavbar from "./Components/TopNavbar";
 import LandingPage from "./Pages/LandingPage/LandingPage";
@@ -24,6 +27,10 @@ function App() {
       </div>
       <Footer />
     </Router>
+    <>
+    <ToastContainer />
+      
+    </>
   );
 }
 
