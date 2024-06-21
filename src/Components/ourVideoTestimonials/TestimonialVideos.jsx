@@ -33,7 +33,7 @@ const TestimonialVideos = () => {
   };
 
   return (
-    <div className="row gx-5 container-fluid mx-auto px-5 position-relative">
+    <div className="row container-md-fluid mx-auto px-md-5 position-relative">
       {testimonials
         .slice(currentVideo, currentVideo + 2)
         .map((testimony, index) => (
