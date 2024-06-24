@@ -12,9 +12,7 @@ function LandingPage() {
     <div>
       <TopNavbar />
       <HeroSection />
-      <div>
-        <PopularCourses />
-      </div>
+      <PopularCourses />
       <AboutUs />
       <OurVideoTestimonials />
       <OurReviews />
